@@ -1,0 +1,3136 @@
+@charset	"iso-2022-jp" ;
+
+/*
+ * このファイルを編集して、profile-directory/chrome/userContent.css
+ * としてコピーしてください。
+ */
+
+/*
+ * このファイルは、表示するすべての Web ページにスタイルを適用するのに使用
+ * することができます。
+ * !important なし規定は、Web ページ作者が何かを設定した場合には、作者の
+ * 規定で無効になります。!important ありの規定は、Web ページ作者の規定を
+ * 無効にします。
+ */
+
+/*
+ * 例: "blink" 要素の点滅を無効にする
+ *
+ * blink { text-decoration: none ! important; }
+ *
+ */
+
+/*
+ * 例: すべてのテーブルに 2 ピクセルの幅を強制する
+ *
+ * table { border: 2px solid; }
+ */
+
+/*
+ * 例: "marquee" 要素を無効にする
+ *
+ * marquee { -moz-binding: none; }
+ *
+ */
+ 
+/*
+ * さらに多くの事例は、 http://www.mozilla.org/unix/customizing.html
+ * を参照してください。
+ */
+
+
+
+
+/*	@namespace	ruby-lang.org url("http://www.rubyist.net/~matz/") ;	*/
+@-moz-document	domain("ruby-lang.org")	{
+
+
+	* ,	*:after ,	*:before	{
+/* -
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+*/
+		font-size :	100% ! important ;
+		line-height :	1.1 ! important ;
+		font-weight :	100 ! important ;
+		font-style :	normal	! important ;
+		text-decoration :	none	! important ;
+		letter-spacing :	-0.00001pt	! important ;
+		text-shadow :	none	! important ;
+		border :	0 none	! important ;
+		-webkit-column-fill :	balance	! important ;
+		-moz-column-fill :	balance	! important ;
+		-ms-column-fill :	balance	! important ;
+		-o-column-fill :	balance	! important ;
+		column-fill :	balance	! important ;
+		-webkit-column-rule-style :	none	! important ;
+		-moz-column-rule-style :	none	! important ;
+		-ms-column-rule-style :	none	! important ;
+		-o-column-rule-style :	none	! important ;
+		column-rule-style :	none	! important ;
+		-webkit-border-radius :	0	! important ;
+		   -moz-border-radius :	0	! important ;
+		    -ms-border-radius :	0	! important ;
+		     -o-border-radius :	0	! important ;
+			border-radius :	0	! important ;
+		-webkit-border-bottom-left-radius :	0	! important ;
+		    -moz-border-radius-bottomleft :	0	! important ;
+		     -ms-border-radius-bottomleft :	0	! important ;
+		      -o-border-radius-bottomleft :	0	! important ;
+			border-bottom-left-radius :	0	! important ;
+		-webkit-border-bottom-right-radius :	0	! important ;
+		    -moz-border-radius-bottomright :	0	! important ;
+		     -ms-border-radius-bottomright :	0	! important ;
+		      -o-border-radius-bottomright :	0	! important ;
+			border-bottom-right-radius :	0	! important ;
+		-webkit-box-shadow :	none	! important ;
+		   -moz-box-shadow :	none	! important ;
+		    -ms-box-shadow :	none	! important ;
+		     -o-box-shadow :	none	! important ;
+			box-shadow :	none	! important ;
+	}
+
+/*
+	:not( .ruby )	{ 
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+*/
+	:not( span )	{
+ 		padding :	.05%	! important ;	/*	WildCard-Margin	*/
+		margin :	.05%	! important ;	/*	WildCard-Margin	*/
+		color :	#d3dce6	! important ;
+	}
+
+/*
+	:root	{
+		display :	table	! important ;
+		width :	99%	! important ;
+	}
+*/
+	body	{
+/* -
+  background: #fff;
+  color: #111;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Noto Sans', "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+*/
+		overflow-x :	hidden	! important ;	 /*	yokosukuroorubaa taisaku	*/
+		font-family :	"Helvetica Neue" ,	Helvetica ,	sans-serif	! important ;
+		background :	url("http://raw.github.com/ysei/www.ruby-lang.org/c3dc5c2d90b7575d80e9fbfa3a5589fe61ea8cc9/images/haikei.jpg") fixed	! important ;
+		background-color :	black	! important ;
+	/*
+		display :	table	! important ;
+		color :	#111 ;
+		background-size :	64em 48em	! important ;
+	*/
+		horizontal-align :	middle	! important ;
+		max-width :	95.5%	! important ;
+		margin-left :	 auto	! important ;
+		margin-right :	 2.3%	! important ;
+	/*
+				line-height :	1.1 ! important ;
+	*/
+	}
+
+/* -
+h1, h2, h3, h4 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 40px 0 5px;
+  text-rendering: optimizeLegibility;
+  color: #CC342D;
+}
+*/
+
+	h1	{
+/* -
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+*/
+	/*
+		width :	auto	! important ;
+		margin-right :	0	! important ;
+		float :	left	! important ;
+		display :	block	! important ;
+	*/
+		font-size :	1.5em	! important ;
+		line-height :	2	! important ;
+		margin-top :	.8em	! important ;
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		page-break-before :	always	! important ;
+	}
+/*
+	h1 + *	{
+		clear :	both	! important ;
+	}
+*/
+	h2	{
+/* -
+  font-size: 20px;
+  line-height: 24px;
+*/
+		font-size :	1.3em	! important ;
+		line-height :	1.5	! important ;
+		margin-top :	.8em	! important ;
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		page-break-before :	always	! important ;
+	}
+
+	h3	{
+		font-size :	1.2em	! important ;
+		line-height :	1.3	! important ;
+		margin-top :	.8em	! important ;
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		page-break-before :	always	! important ;
+	}
+
+	h4	{
+/* -
+  font-style: italic;
+*/
+		margin-top :	.8em	! important ;
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		page-break-before :	always	! important ;
+	}
+
+	h5	{
+		margin-top :	.8em	! important ;
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		page-break-before :	always	! important ;
+	}
+
+/* -
+a {
+  color: #445488;
+  text-decoration: underline;
+}
+*/
+	a ,	a:before ,	a:after	{
+		color :	#b0af99	! important ;
+		text-decoration :	underline	! important ;
+		cursor :	default	! important ;
+	/*
+		margin-left :	-0.2em	! important ;
+		margin-right :	-0.2em	! important ;
+	*/
+	}
+
+	a:visited ,	a:visited:before ,	a:visited:after	{
+		color :	#e00	! important ;	/*	color: #bf0000;	*/
+	}
+
+	a:hover	{
+/* -
+  color: #0086b3;
+*/
+        	color :	#f50000	! important ;
+		cursor :	default	! important ;
+	}
+
+	a:focus	{
+		color :	white	! important ;
+		outline :	thin dotted	! important ;
+	}
+
+	a:active	{
+		color :	white	! important ;
+		outline :	none	! important ;
+	}
+
+/* -
+p {
+  margin: 20px 0;
+  text-rendering: optimizeLegibility;
+}
+
+p.warning {
+  color: #CC342D;
+}
+
+:target { background: #ffc; }
+*/
+
+	h1 + p ,
+	h2 + p ,
+	h3 + p ,
+	h4 + p ,
+	h1 + ol ,
+	h2 + ol ,
+	h3 + ol ,
+	h4 + ol ,
+	h1 + ul ,
+	h2 + ul ,
+	h3 + ul ,
+	h4 + ul ,
+	h1 + dl ,
+	h2 + dl ,
+	h3 + dl ,
+	h4 + dl	{
+/* -
+  margin-top: 5px;
+*/
+		margin-top :	0	! important ;
+		line-height :	1	! important ;
+	}
+
+	#content p.summary	{
+/* -
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 26px;
+*/
+		width :	100%	! important ;
+		font-size :	130%	! important ;
+	/*
+		letter-spacing :	.015em	! important ;
+		word-spacing :	-.0001em	! important ;
+		font-weight :	128 ! important ;
+		width :	2em	! important ;
+		top :	0	! important ;
+		left :	0	! important ;
+	*/
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times,	serif	! important ;
+		margin-bottom :	.68em	! important ;
+	/*
+		padding-left :	1.2em	! important ;
+		background :	url("http://raw.github.com/ysei/www.ruby-lang.org/c3dc5c2d90b7575d80e9fbfa3a5589fe61ea8cc9/images/haikei_-_koodo.jpg") no-repeat	! important;
+		background-size :	1em 108%	! important ;
+		position :	relative	! important ;
+		display :	inline-block ! important ;
+		overflow :	hidden	! important ;
+	*/
+	}
+
+	/*
+	#content p.summary:first-letter	{
+		font-size :	115%	! important ;
+		font-weight :	200	! important ;
+
+		display :	inline ! important ;
+		padding :	 .2em .1em 0 .2em	! important ;
+		background-color :	#7d0000	! important ;
+		color :	black	! important ;
+		background-color :	#d3dce6	! important ;
+		background-color :	transparent	! important ;
+		display :	inline-block ! important ;
+		line-hight :	1.5	! important ;
+		font-family :	"Helvetica Neue",	Helvetica,	sans-serif	! important ;
+	}
+	*/
+
+	/*
+	#content p.summary:before	{
+		content :	" "	! important ;
+		vertical-align :	top	! important ;
+	}
+	*/
+
+
+	blockquote	{
+/* -
+  font-style: italic;
+  color: #555;
+  margin: 0;
+  padding: 0 20px;
+*/
+	}
+
+	ul	{
+/* -
+  margin: 20px 0;
+  list-style: square outside;
+*/
+	}
+
+	ol	{
+/* -
+  margin: 20px 0;
+  list-style: decimal outside;
+*/
+	}
+
+	ul ul ,
+	ol ol ,
+	ul ol ,
+	ol ul	{
+/* -
+  margin: 6px 0 0;
+*/
+	}
+
+	li	{
+/* -
+  margin-bottom: 6px;
+  text-rendering: optimizeLegibility;
+*/
+		clear :	both	! important ;
+	}
+
+	ul li:last-child ,
+	ol li:last-child	{
+/* -
+  margin-bottom: 0;
+*/
+	}
+
+	dl dd	{
+/* -
+  margin: 6px 0 20px;
+  text-rendering: optimizeLegibility;
+*/
+	}
+
+	dl dt	{
+/* -
+  margin: 20px 0 6px;
+  text-rendering: optimizeLegibility;
+*/
+	}
+
+	h1 ,	h2 ,	h3 ,	h4 ,	p ,	li ,	dt ,	dd ,	a ,	code ,	pre	{
+/* -
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+*/
+	/*
+		word-wrap :	pre	! important ;
+		overflow-wrap :	pre	! important ;
+	*/
+	}
+
+
+
+
+code	{
+/* -
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 14px;
+  line-height: 16px;
+  text-shadow: 0 1px 0 #fff;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+*/
+
+		position :	relative	! important ;
+		display :	inline-block	! important ;
+		background :	#7d0000	! important ;
+
+		font-size :	80%	! important ;
+		font-family :	"Lucida Console" ,	Monaco ,	monospace	! important ;
+		line-height :	1	! important ;
+		text-align :	left	! important ;
+		horizontal-align :	left	! important ;
+	/*
+		width :	100%	! important ;
+	*/
+}
+
+pre	{
+/* -
+  box-shadow: 0 0 4px rgba(0,0,0,0.4) inset;
+  background: #f8f8f8;
+  text-shadow: 0 1px 0 #fff;
+  display: block;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 16px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+*/
+		line-height :	.5	! important ;
+	/*
+		width :	100%	! important ;
+		display :	inline-block	! important ;
+	*/
+		display :	block	! important ;
+
+		padding-left :	auto	! important ;
+		padding-right :	auto	! important ;
+		margin-left :	auto	! important ;
+		margin-right :	auto	! important ;
+	/*
+	*/
+		font-size :	95%	! important ;
+		line-height :	0.95	! important ;
+		background :	black	! important ;
+	}
+/*
+		-moz-background-size:auto 100%;
+		background-size:auto 100%;
+
+		background :	transparent	! important ;
+
+		float :	right	! important ;
+ 		background-size :	contains	! important ;
+		-moz-background-size :	contains	! important ;
+
+*/
+
+
+
+	pre code	{
+/* -
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+*/
+		/*	news	*/
+		float :	left	! important ;
+		horizontal-align :	left	! important ;
+		background :	url(http://raw.github.com/ysei/www.ruby-lang.org/c3dc5c2d90b7575d80e9fbfa3a5589fe61ea8cc9/images/haikei_-_koodo.jpg)	! important ;
+		background-size :	100% 200%	! important ;
+		-moz-background-size :	100% 200%	! important ;
+		background-repeat :	repeat	! important ;
+		background-position :	bottom	! important ;
+	/*
+		-moz-background-size :	108% 100%	! important ;
+		background-size :	108% 100%	! important ;
+		-moz-background-size :	cover	! important ;
+	*/
+		line-height :	1	! important ;
+	}
+
+	h1 + #content p code ,
+	h1 + #content ul > li > code	{
+		display :	inline	! important ;
+		line-height :	inherit	! important ;
+	}
+
+
+		/*	Ruby--other-lang peeji ,	20 minutes peeji	*/
+
+	h1 + #content pre code ,
+	h1 + #content code.ruby ,
+	h1 + #content code.python ,
+	h1 + #content code.c ,
+	h1 + #content code.java ,
+	h1 + #content code.perl ,
+	h1 + #content code.php ,
+	h1 + #content code.sh	{
+		clear :	both	! important ;
+		display :	block	! important ;
+		width :	95%	! important ;
+		text-align :	left	! important ;
+		margin :	1em 0 1em 5%	! important ;	/*	line-height	*/
+		float :	right	! important ;
+	}
+/*
+	#content-wrapper > h1 + #content pre code	{
+	}
+
+	#content-wrapper > h1 + #content ol li pre code	{
+		white-space :	normal	! important ;
+	}
+*/
+	h1 + #content pre code ,
+	h1 + #content pre code.*	{
+		white-space :	normal	! important ;
+		word-wrap :	word-break	! important ;
+		overflow-wrap :	word-break	! important ;
+	}
+
+
+
+	h1 + #content > div.highlight	{
+	/*
+		white-space :	pre	! important ;
+	*/
+	}
+
+
+		/*	Ruby--other-lang peeji	*/
+
+/*	h1 + #content > .summary ~ pre.code code ,	*/
+	h1 + #content > .summary ~ pre code ,
+	h1 + #content > .summary ~ code.ruby ,
+	h1 + #content > .summary ~ code.python ,
+	h1 + #content > .summary ~ code.c ,
+	h1 + #content > .summary ~ code.java ,
+	h1 + #content > .summary ~ code.perl ,
+	h1 + #content > .summary ~ code.php ,
+	h1 + #content > .summary ~ code.sh	{
+		margin-top :	0	! important ;
+		margin-bottom :	0	! important ;
+		margin-left :	auto	! important ;
+	}
+
+
+		/*	Ruby--other-lang peeji ,	20 minutes peeji	*/
+
+	.multi-page + h1 + #content > .highlight + p	{
+		clear :	both	! important ;
+	}
+/*
+	.multi-page + h1 + #content > p > code,
+	.multi-page + h1 + #content > ul code	{
+		display :	inline	! impor	tant ;
+		padding :	.3em .5em .1em .5em	! important ;
+	}
+*/
+
+
+	/*	Layout	*/
+
+	.container	{
+/* -
+	max-width: 980px;
+	margin: 0 auto;
+	text-align: left;
+*/
+		max-width :	100%	! important ;
+	}
+
+
+
+	#main-wrapper	{
+/* -
+ padding: 0;
+*/
+		line-height :	1.25	! important ;
+	/*
+		position :	static	! important ;
+		background :	transparent	! important ;	/ relative saku
+
+		padding :	1em 0 0	! important ;
+	*/
+	}
+/*
+	#main-wrapper:first-child	{
+	}
+*/
+
+
+	#main	{
+/* -
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+*/
+		display :	inline-block	! important ;	/*	relative saku	*/
+	}
+
+	#content-wrapper	{
+/* -
+  width: 70%;
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 48px;
+*/
+		display :	inline-block	! important ;
+		max-width :	100%	! important ;
+	/*
+		columns :	60%	! important ;
+		margin-top :	5%	! important ;
+		min-height:100px;
+		height: auto !important;
+		height: 100px;
+	*/
+	} 
+
+	#content-wrapper > h1:first-child	{
+		margin :	1.4em 0 .8em	! important ;
+	}
+
+	#content	{
+/*
+  margin: 0 0 48px 0;
+*/
+		z-index :	1	! important ;
+		padding-right :	1%	! important ;
+
+		-webkit-columns :	2 34em	! important ;
+		-moz-columns :	2 34em	! important ;
+		-ms-columns :	2 34em	! important ;
+		-o-columns :	2 34em	! important ;
+		columns :	2 34em	! important ;
+
+		-webkit-column-gap :	6.8em	! important ;
+		-moz-column-gap :	6.8em	! important ;
+		-ms-column-gap :	6.8em	! important ;
+		-o-column-gap :	6.8em	! important ;
+		column-gap :	6.8em	! important ;
+	}
+
+
+		/*	ippan peeji	*/
+
+	h1 + #content	{
+	}
+
+	h1 + #content *:not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(code.*)	{
+		margin :	.5%	! important ;
+		padding :	.5%	! important ;
+	}
+
+	h1 + #content code	{	/*	not( code.ruby / python / sh )	*/
+		padding :	.6% .3% .2%	! important ;
+	}
+
+	h1 + #content a	{
+		margin-left :	-.02em	! important ;
+		margin-right :	-.02em	! important ;
+		margin-bottom :	.4%	! important ;
+		padding-bottom :	.4%	! important ;
+	/*
+		margin-top :	.5%	! important ;
+		padding-top :	.5%	! important ;
+	*/
+	}
+
+
+
+	h1 + #content > p	{
+	/*
+		-moz-columns :	1 90%	! important ;
+	*/
+		line-height :	1.3	! important ;
+		margin-right :	auto	! important ;
+
+		/*	kaizoudo izon	*/
+		width :	94%	! important ;
+		min-width :	90%	! important ;
+		max-width :	96%	! important ;
+	}
+/*
+	#content > p	{
+		font-size :	inherit	! important ;
+	}
+*/
+
+
+		/*	news peeji  download peeji	*/
+
+	h1 + #content > p.post-info:last-of-type	{
+		text-align :	right	! important ;
+		right :	0	! important ;
+		horizontal-align :	right	! important ;
+		float :	right	! important ;
+		white-space :	pre	! important ;
+		word-wrap :	pre	! important ;
+		overflow-wrap :	pre	! important ;
+	}
+
+
+	#content ul ,	#content dl ,	#content ol	{
+		font-size :	inherit	! important ;
+	/*
+		line-height :	1.3	! important ;
+	*/
+		list-style-position :	inside	! important ;
+
+		-webkit-columns :	3 20em	! important ;
+		-moz-columns :	3 20em	! important ;
+		-ms-columns :	3 20em	! important ;
+		-o-columns :	3 20em	! important ;
+		columns :	3 20em	! important ;
+		-webkit-column-gap :	2.5em	! important ;
+		-moz-column-gap :	2.5em	! important ;
+		-ms-column-gap :	2.5em	! important ;
+		-o-column-gap :	2.5em	! important ;
+		column-gap :	2.5em	! important ;
+
+		/*	kaizoudo izon	*/
+		width :	97%	! important ;
+	}
+
+	#content ul	{
+		list-style-type :	square	! important ;
+	}
+
+	h1 + #content ol	{
+		list-style-position :	outside	! important ;
+		margin-top :	.5em	! important ;
+		margin-bottom :	.5em	! important ;
+	}
+
+	h1 + #content ol li	{
+		margin-left :	1em	! important ;
+	}
+/*
+	h1 + #content ol li:before	{
+		clear :	both	! important ;
+		float :	left	! important ;
+		content :	" "	! important ;
+	}
+		position :	relative	! important ;
+		display :	table-cell	! important ;
+	}
+
+	h1 + #content ol li::first-letter ,
+		margin-top :	-1em	! important ;
+	h1 + #content ol ,
+		top :	0	! important ;
+	}
+		left :	-1em	! important ;
+		width :	95%	! important ;
+		max-width :	100%	! important ;
+		margin-right :	auto	! important ;
+		margin-left :	auto	! important ;
+		padding-left :	auto	! important ;
+		padding-right :	auto	! important ;
+
+*/
+
+/*
+		width :	90%	! important ;
+	#content ol code	{
+		position :	relative	! important ;
+		display :	inline-block	! important ;
+		float :	right	! important ;
+	}
+
+	#content ol li	{
+		vertical-align :	bottom	! important ;
+		clear :	both	! important ;
+		margin-left :	2em ! important ;
+		display :	block	! important ;
+		word-wrap :	nowrap	! important ;
+		overflow-wrap :	nowrap	! important ;
+		white-space :	pre	! important ;
+		list-style-type: decimal	! important ;
+			position :	relative	! important ;
+	}
+*/
+
+	h1 + #content ol p	{
+		display :	inline	! important ;
+	}
+
+	h1 + #content ol li pre + p	{
+	/*
+		clear :	both	! important ;
+		float :	left	! important ;
+	*/
+	}
+
+	#content dl dt	{
+		font-size :	115%	! important ;
+		margin-top :	.3em	! important ;
+	}
+
+	#content dl dd ,
+	h1 + #content ul ,
+	h1 + #content ol	{
+		margin-left :	.5em	! important ;
+	}
+
+	#content p + ul ,	#content p + dl	{
+		margin-top :	.5em	! important ;
+		margin-bottom :	.5em	! important ;
+	}
+
+/*	#content li	{
+		margin :	0 5% 0 0	! important ;
+	}
+	#content:nth-child( 2 ) li	{
+		line-height :	1.3	! important ;
+	}
+*/
+
+	h1 + #content > h3	{
+		margin :	1.2em 0 .6em	! important ;
+	}
+
+	h1 + #content > h3 ~ .highlight:after	{
+		content :	" "	! important ;
+		display :	block	! important ;
+		clear :	both	! important ;
+		word-wrap :	pre	! important ;
+		overflow-wrap :	pre	! important ;
+		margin-top :	2em	! important ;
+	}
+
+
+	/*	code.sh	*/
+	h1 + #content > h4	{
+		clear :	both	! important ;
+		display :	block	! important ;
+	/*
+		margin-top :	14pt	! important ;
+	*/
+	}
+
+	h1 + #content > h4:before	{
+		content :	" "	! important ;
+		display :	block	! important ;
+		clear :	both	! important ;
+		margin-top :	6.8pt	! important ;
+	}
+
+	h1 + #content > h4 ~ .highlight + p	{
+		clear :	both	! important ;
+		display :	block	! important ;
+		float :	left	! important ;
+		left :	0	! important ;
+		horizontal-align :	left	! important ;
+		position :	relative	! important ;
+	}
+
+
+
+
+	#content li > p	{
+		display :	inline-block	! important ;
+		width :	95%	! important ;
+		horizontal-align :	left	! important ;
+	}
+
+	#content ul pre	{
+		margin-left :	1em	! important ;
+	}
+
+
+
+
+	div.post p	{
+/* -
+  margin: 0;
+*/
+		display :	inline	! important ;
+	/*
+		display :	block	! important ;
+		display :	inline-block	! important ;
+		white-space :	normal	! important ;
+	*/
+	}
+
+/*
+	div.post p:not(.post-info):not(.post-link):after	{
+		content: url(chrome://.parentNode:textContent)	! important ;
+	div.post p:not(.post-info|.post-link):after	{
+		content: url("../images/ico32.gif")	! important ;
+	}
+*/
+
+	div.post	{
+		display :	block	! important ;
+		padding :	.5% 0	! important ;
+
+		/*	kaizoudo izon	*/
+		margin :	1.5em 7% .5em 0	! important ;
+
+	}
+
+	p.post-link	{
+/* -
+  margin: 6px 0;
+*/
+		font-size :	85%	! important ;
+		display :	block	! important ;
+/*
+	div.post:first-child	{
+		margin-top :	0	! important ;
+	}
+
+
+		white-space :	pre	! important ;
+		margin :	-1.5em 0 0	! important ;
+		float :	left	! important ;
+
+		white-space :	pre	! important ;
+*/
+	}
+
+	div.post h3	{
+		margin :	0 0 .3em	! important ;
+	}
+
+	div.post h3 a	{
+/* -
+  color: #CC342D;
+  text-decoration: none;
+*/
+		font-size :	122.2%	! important ;
+		line-height :	1.1	! important ;
+	}
+
+/* -
+div.post h3 a:hover { text-decoration: underline; }
+*/
+
+	p.post-info	{
+/* -
+  color: grey;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+*/
+		clear :	both	! important ;
+		margin :	1em 0 0	! important ;
+		font-size :	80%	! important ;
+		line-height :	.1	! important ;
+	/*
+	div.post 
+		display :	table	! important ;
+		float :	left	! important ;
+		white-space :	pre	! important ;
+		display :	block	! important ;
+		top :	1.5em	! important ;
+		position :	relative	! important ;
+	*/
+	}
+
+	p.post-info:before	{
+		display :	block	! important ;
+		clear :	both	! important ;
+		content :	" "	! important ;
+		word-wrap :	break-word	! important ;
+		overflow-wrap :	break-word	! important ;
+		font-size :	.01%	! important ;
+		line-height :	.01	! important ;
+		margin :	-.33em 0 0	! important ;
+		width :	.1pt	! important ;
+	}
+
+	span.post-info	{	/*	ryouhou	*/
+		display :	block	! important ;
+		clear :	both	! important ;
+		font-size :	80%	! important ;
+		line-height :	1.1	! important ;
+	}
+
+	div.post p:not(.post-info):not(.post-link)	{
+		font-size :	88.8%	! important ;
+		line-height :	.4	! important ;
+	}
+
+
+
+	#news	{
+		margin :	2em 0 0 .4%	! important ;
+	}
+
+	#news h3	{
+		font-size :	120%	! important ;
+		margin-bottom :	.2em	! important ;
+	}
+
+/*	#news ul:not(#news ul:nth-child(even))	{	*/
+	#news > ul	{
+		margin-bottom :	-.05em	! important ;	/*	WildCard-Margin taisaku	*/
+
+		-webkit-columns :	1	! important ;
+		-moz-columns :	1	! important ;
+		-ms-columns :	1	! important ;
+		-o-columns :	1	! important ;
+		columns :	1	! important ;
+	}
+
+	#news p.more	{
+		font-size :	85%	! important ;
+		margin-top :	.5em	! important ;
+	}
+
+	#news li	{
+		font-size :	105%	! important ;
+		line-height :	1	! important ;
+	}
+/*
+	#news li a	{
+		font-size :	.95em	! important ;
+		line-height :	.4	! important ;
+	}
+*/
+
+
+	/*	ippan peeji post-info	*/
+	#content-wrapper > #content > p.post-info	{
+		margin-top :	1.5em	! important ;
+		margin-bottom :	1em	! important ;
+	}
+
+
+	/*	Sidebar	*/
+
+	#sidebar-wrapper	{
+/* -
+  display: table-cell;
+  vertical-align: top;
+  width: 30%;
+*/
+		z-index :	8	! important ;
+		position :	relative	! important ;
+	/*
+		right :	
+		position :	fixed	! important ;
+		position :	static	! important ;
+
+		clear :	both	! important ;
+
+		horizontal-align :	left	! important ;
+		bottom :	0	! important ;
+		left :	0	! important ;
+		display :	table-cell	! important ;
+	*/
+		display :	inline-block	! important ;
+
+		/*	kaizoudo izon	*/
+		min-width :	20%	! important ;
+		max-width :	331px	! important ;
+	}
+
+	#sidebar	{
+/* -
+  border-bottom: 1px solid #ccc;
+  background: #f6f6f3;
+  text-shadow: 0 1px 0 #fff;
+  padding: 20px 24px;
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+     -moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+          box-shadow: 0 0 3px rgba(0,0,0,0.4);
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  margin: 24px 48px 24px 0;
+*/
+		display :	block	! important ;
+		background :	transparent	! important ;
+		horizontal-align :	right	! important ;
+		float :	right	! important ;
+		word-wrap :	word-break	! important ;
+		overflow-wrap :	word-break	! important ;
+
+	/*
+		vertical-align :	bottom	! important ;
+		position :	relative	! important ;
+	*/
+
+		/*	kaizoudo izon	*/
+		max-width :	97%	! important ;
+		margin : 0	! important ;
+	} 
+
+	#sidebar ul ,	#sidebar li	{
+/* -
+#sidebar ul {
+  padding: 0;
+  list-style: none;
+  margin: 6px 0 30px;
+}
+
+#sidebar li {
+  margin: 6px 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+*/
+		background :	black	! important ;	/*	#7d0000	*/
+		margin :	.2em 0	! important ;
+	}
+
+	#sidebar h3	{
+/* -
+  margin: 30px 0 0;
+  padding: 0 0 6px;
+  border-bottom: 1px solid #ccc;
+  color: #111;
+  font-size: 16px;
+  line-height: 20px;
+*/
+		background :	black	! important ;	/*	#7d0000	*/
+		font-size :	133%	! important ;
+		line-height :	1	! important ;
+		margin :	.3em 0 0	! important ;
+	} 
+
+/* -
+	#sidebar h3:first-of-type { margin-top: 0; }
+*/
+/*
+	#sidebar .navigation h1 a:link {
+		color: #bf0000;
+		text-decoration: none;
+	}
+	#sidebar .navigation h1 a:visited {
+		color: #bf0000;
+		text-decoration: none;
+	}
+	#sidebar .navigation h1 a:hover {
+	        color: #f50000;
+*/
+
+
+
+	#page	{
+		max-width :	98.765%	! important ;
+		margin-left :	auto	! important ;
+		margin-right :	 auto	! important ;
+		background :	black	! important ;
+	}
+
+
+
+	/*	Home page	*/
+
+	/*
+	#home-page-layout	{
+		horizontal-align: middle	! important ;
+		max-width: 96%	! important ;
+		max-width: auto	! important ;
+		margin-left :	 auto	! important ;
+		margin-right :	 auto	! important ;
+	}
+	*/
+
+	#home-page-layout #intro-container	{
+/* -
+  background: #EBEBE4 url(/images/ruby_pattern.png) 50% 50%;
+  border-bottom: 1px solid #ccc;
+*/
+		z-index :	7	! important ;
+		background :	black	! important ;
+		position :	absolute	! important ;
+
+		/*	kaizoudo izon	*/
+		width :	92%	! important ;
+	}
+
+	#home-page-layout #intro-wrapper	{
+/* -
+  display: table;
+  margin: 0 0 20px 0;
+*/
+	/*
+		display :	inline-block	! important ;
+
+		padding :	0 20% 0 0	! important ;
+		padding :	0 8% 0 8%	! important ;
+		display :	block	! important ;
+		position: absolute	! important ;
+		horizontal-align :	left	! important ;
+		display :	inline-block	! important ;
+		float :	left;
+	*/
+		width :	100%	! important ;
+		min-height :	6.8pt	! important ;
+
+		/*	kaizoudo izon	*/
+		max-height :	26.1em	! important ;
+		height :	26.1em	! important ;
+	}
+
+	#home-page-layout #intro	{
+/* -
+  display: table-cell;
+  padding: 24px 48px 24px 48px;
+  text-shadow: 0 1px 0 #fff;
+  vertical-align: middle;
+*/
+		vertical-align :	top	! important ;
+		padding :	0 5% 0 0	! important ;
+	/*
+		display :	inline-block	! important ;
+
+		width :	30%	! important ;
+		padding :	0 5% 0 5%	! important ;
+		max-width :	50%	! important ;
+		max-width :	auto	! important ;
+		margin :	0 10% 0 0	! important ;
+	*/
+
+		/*	kaizoudo izon	*/
+		display :	block	! important ;
+		height :	auto	! important ;
+}
+	#home-page-layout #intro h1	{
+/* -
+  font-size: 30px;
+  margin: 12px 0;
+*/
+		position :	relative	! important ;
+		display	:	block	! important ;
+		margin-top :	.5%	! important ;
+		padding :	0	! important ;
+		font-size :	1.66em	! important ;
+		line-height :	1.777	! important ;
+	}
+
+
+
+	#home-page-layout #intro p	{
+/* -
+  margin-top: 12px;
+  font-size: 19px;
+  line-height: 25px;
+*/
+		display :	block	! important ;
+		max-width :	331px	! important ;
+		margin-top: .5em	! important ;
+		font-size: .9em	! important ;
+		line-height: 1.2	! important ;
+		word-wrap :	break-word	! important ;
+		overflow-wrap :	break-word	! important ;
+	/*
+		white-space :	pre-line	! important ;
+		white-space :	normal	! important ;
+		white-space :	pre-wrap	! important ;
+	*/
+
+		/*	kaizoudo izon	*/
+		margin-bottom :	2%	! important ;
+}
+
+	#home-page-layout #intro a	{
+/* -
+ color: #CC342D;
+*/
+		line-height :	.1	! important ;	/*	FuruiMozillaTaisaku	*/
+		margin :	.1em 0	! important ;
+	}
+
+	#home-page-layout #code	{
+/* -
+  width: 375px;
+  display: table-cell;
+  vertical-align: middle;
+*/
+		position :	relative	! important ;
+		clear :	both	! important ;
+
+	/*
+		horizontal-align :	right	! important ;
+		background-position :	center center	! important ;
+		max-height :	21.1em	! important ;
+		margin-bottom :	auto	! important ;
+
+		display	:	inline-block	! important ;
+		padding-top :	auto	! important ;
+		padding-bottom :	0	! important ;
+		bottom :	0	! important ;
+
+		font-size :	1em	! important ;
+		margin :	0 20% 0 0	! important ;
+	*/
+		/*	kaizoudo izon	*/
+		display :	block	! important ;
+		vertical-align :	top	! important ;
+		horizontal-align :	middle	! important ;
+		max-width :	30em	! important ;
+		min-width :	0	! important ;
+		width :	auto	! important ;
+		margin-right :	35%	! important ;	/*	FuruiMozillaTaisaku	*/
+		margin-left :	10%	! important ;	/*	FuruiMozillaTaisaku	*/
+	}
+
+	#home-page-layout #code pre	{
+/* -
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: none;
+  border: 1px solid #999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  margin: 12px 48px 12px 0;
+*/
+ 		position :	relative	! important ;
+		display :	table-cell	! important ;
+		horizontal-align :	middle	! important ;
+		vertical-align :	middle	! important ;
+		margin-right :	auto	! important ;
+		margin-left :	auto	! important ;
+		align-text :	center	! important ;
+		float :	right	! important ;
+	/*
+		max-width :	100%	! important ;
+		min-width :	0	! important ;
+		width :	auto	! important ;
+		width :	100%	! important ;
+		height :	21.1em	! important ;
+
+		float :	bottom	! important ;
+		bottom :	0	! important ;
+		margin-top :	2.56em	! important ;
+		max-width :	100%	! important ;
+		max-width :	24em	! important ;
+
+		margin :	2em 0 0	40%	! important ;
+	*/
+				/*	white-space :	nowrap	! important ;	*/
+	}
+
+	#home-page-layout #code c1	{
+		margin-top :	-.5em	! important ;
+		line-height :	.5	! important ;
+	}
+
+
+	#home-page-layout #code .ruby	{
+		position :	relative	! important ;
+		vertical-align :	bottom	! important ;
+		bottom :	0	! important ;
+		horizontal-align :	right	! important ;
+		display :	block	! important ;
+		float :	right	! important ;
+		line-height :	.75	! important ;	/*	kuugyou	*/
+/*
+		max-width :	24em	! important ;
+		margin-left :	40%	! important ;
+ 		padding :	.2em 13.3% .2em 14%	! important ;
+*/
+		width :	100%	! important ;
+
+		white-space :	pre	! important ;
+		word-wrap :	nowrap	! important ;
+		overflow-wrap :	nowrap	! important ;
+
+		background-position :	top	! important ;
+		background-size :	108% 100%	! important ;
+
+		/*	kaizoudo izon	*/
+ 		padding :	.1em 1em 0 1.5em	! important ;
+ 		padding-right :	auto	! important ;
+ 		padding-left :	auto	! important ;
+	}
+
+/*
+	[#text=""]	{
+		display :	none	! important ;
+	}
+	#text[nodeValue=""]	{
+	[#text=""]	{
+
+ 		padding :	-0.3	! important ;
+*/
+
+	#home-page-layout #code div.highlight	{
+		width :	100%	! important ;
+		horizontal-align :	right	! important ;
+		position :	relative	! important ;
+		float :	right	! important ;
+		display :	table-cell	! important ;
+		margin-right :	0	! important ;
+		padding-right :	0	! importo
+		margin-left :	auto	! important ;
+		padding-left :	auto	! important ;
+	/*
+		right :	0	! important ;
+	*/
+	}
+	/*
+		min-width :	0	! important ;
+		width :	auto	! important ;
+
+		margin-right :	auto	! important ;
+		margin-left :	auto	! important ;
+		width :	100%	! important ;
+
+		padding-left :	4em	! important ;
+		padding :	0	! important ;
+		width :	10em	! important ;
+		height :	100%	! important ;
+		width :	16em	! important ;
+		background :	url(http://raw.github.com/ysei/www.ruby-lang.org/c3dc5c2d90b7575d80e9fbfa3a5589fe61ea8cc9/images/haikei_-_koodo.jpg) no-repeat	! important ;
+		background-size :	cover	! important ;
+		-moz-background-size :	cover	! important ;
+		margin :	0 10% 0 0	! important ;
+	*/
+
+
+	#home-page-layout #main-wrapper	{
+		position :	relative	! important ;
+		margin-bottom :	0	! important ;
+	}
+
+	#home-page-layout #main-wrapper div.post h3	{
+		font-size :	120%	! important ;
+		line-height :	1	! important ;
+	}
+
+	#home-page-layout #main-wrapper div.post h3 a	{
+		font-size :	100%	! important ;
+		line-height :	1.1	! important ;
+	}
+
+	#home-page-layout #main-wrapper div.post p	{
+		line-height :	.4	! important ;
+	}
+
+	#home-page-layout #content-wrapper	{
+
+		/*	kaizoudo izon	*/
+		padding-bottom :	26.1em	! important ;
+		width :	100%	! important ;
+	}
+
+	#home-page-layout #content	{
+		position :	relative	! important ;
+		-webkit-column-gap :	.5em	! important ;
+		-moz-column-gap :	.5em	! important ;
+		-ms-column-gap :	.5em	! important ;
+		-o-column-gap :	.5em	! important ;
+		column-gap :	.5em	! important ;
+
+		/*	kaizoudo izon	*/
+		top :	26.1em	! important ;
+		-webkit-columns :	1	! important ;
+		-moz-columns :	1	! important ;
+		-ms-columns :	1	! important ;
+		-o-columns :	1	! important ;
+		columns :	1	! important ;
+	}
+
+	#home-page-layout #content ul	{
+		font-size :	.9em	! important ;
+		list-style :	none	! important ;
+	}
+
+
+	/*	Page header	*/
+
+	#header	{
+/* -
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+*/
+	/*		margin-top :	.55em	! important ;	*/
+		width :	100%	! important ;
+	/*
+		height :	119px	! important ;
+	  display: table	! important ;
+	  table-layout: fixed	! important ;
+	  border-collapse: collapse;
+	*/
+		background :	transparent	! important ;
+	}
+
+	#header:before	{
+		display :	block	! important ;
+	/*
+		margin :	inherit	! important ;
+	*/
+		color :	#7d0000	! important ;
+		font-size :	85%	! important ;
+		text-transform :	none	! important ;
+		letter-spacing :	inherit	! important ;
+		position :	relative	! important ;
+		content :	'User CSS : Please donate to Professor Matz , JZ , and RMS        * @ github'	! important ;
+		white-space :	pre	! important ;
+		margin-top :	-.3em	! important ;
+		margin-left :	0	! important ;
+		vertical-align :	top	! important ;
+		float :	left	! important ;
+		top :	.03em	! important ;
+		left :	.2em	! important ;
+		text-align :	left	! important ;
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+	/*
+		position :	absolute	! important ;
+	*/
+	}
+
+
+#header_content	{
+/* -
+  padding: 30px 24px 24px 24px;
+  position: relative;
+*/
+		clear :	both	! important ;
+		width :	100%	! important ;
+		vertical-align :	top	! important ;
+
+	/*
+		position :	absolute	! important ;
+		display: table-cell;
+	*/
+}
+
+	#header h1 ,	#header h2	{
+/* -
+#header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: black;
+}
+
+#header h2 {
+  margin: 5px 0 0;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #585450;
+}
+*/
+		display :	none	! important ;
+		overflow :	hidden ! important ;
+	}
+	/*
+		text-indent :	-680px	! important ;
+		font-size :	119px	! important ;
+		line-height :	119px	! important ;
+	*/
+/*
+	#header h1	{
+		line-height: 119px	! important ;
+	} 
+*/
+	#header_content > a	{
+/* -
+  text-decoration: none;
+  color: black;
+  background: url(/images/header-ruby-logo.png) no-repeat left 8px;
+  display: inline-block;
+  padding: 15px 0 0 74px;
+  margin: 0 0 15px -4px;
+*/
+		position :	relative	! important ;
+		background :	transparent	! important ;
+		z-index :	5	! important ;
+
+		/*	331 px + 2px ,	119px + 0px	*/
+	/*
+		padding :	0 333px 119px 0	! important ;
+		top :	1px	! important ;
+		left :	2px	! important ;
+
+		width :	331px	! important; 
+		height :	119px	! important;
+		margin :	0 0 0 0.33em	! important ;
+		display :	box ! important ;
+		display :	inline-block ! important ;
+		padding :	119px 0 0 331px	! important ;
+		padding: 15px 0 0 74px	! important ;
+		padding :	119px 0 0 331px	! important ;
+		background: url(http://f.cloud.github.com/assets/5885954/1700057/f9f3b70c-5feb-11e3-9228-53d365adc819.png) no-repeat left 8px	! important ;
+	*/
+	}
+
+	#header_content > a:before	{	/*	FuruiMozillaTaisaku	*/
+		content :	url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif")	! important;
+		position :	relative	! important ;
+		top :	0	! important ;
+		left :	0	! important ;
+		display :	inline-block ! important ;
+	}
+
+/*
+	#header_content > a:after	{
+		content :	"Architected by Professor Matsumoto"	! important ;
+		position :	absolute	! important ;
+		font-size :	80%	! important ;
+		bottom :	.5em	! important ;
+		right :	.5em	! important ;
+		color :	black	! important ;
+		text-decoration :	none	! important ;
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		font-style :	italic	! important ;
+
+		margin-left :	334px	! important ;
+		margin-top :	-.5em	! important ;
+		text-align :	left	! important ;
+		text-align :	right	! important ;
+*/
+	}
+
+
+
+	#header div.site-links	{
+/* -
+  overflow: hidden;
+  border-top: 5px solid #CC342D;
+  background: #585450;
+  padding: 0 0 0 8px;
+  -webkit-border-bottom-left-radius:  6px;
+     -moz-border-radius-bottomleft:   6px;
+          border-bottom-left-radius:  6px;
+  -webkit-border-bottom-right-radius: 6px;
+     -moz-border-radius-bottomright:  6px;
+          border-bottom-right-radius: 6px;
+*/
+		z-index :	4	! important ;
+		left :	0	! important ;
+		width :	100%	! important ;
+		background :	#7d0000	! important ;
+	/*	331 + 2 + 1	*/
+  word-wrap: pre	! important ;
+  overflow-wrap:	pre	! important ;
+		position :	relative	! important ;
+
+		/*	kaizoudo izon	*/
+}
+/*
+		position :	static	! important ;
+		position :	absolute	! important ;
+		display :	box ! important ;
+		display :	inline-block ! important ;
+		top :	16px	! important ;
+		margin :	-120px 0 0	! important ;
+		overflow :	hidden	! important ;
+*/
+
+	#header div.site-links a:link ,
+	#header div.site-links a:visited ,
+	#header div.site-links a:hover ,
+	#header div.site-links a:focus ,
+	#header div.site-links a:active	{
+/*
+#header div.site-links a {
+  color: #F6F6F3;
+  text-shadow: 0 1px 0 #000;
+  background-color: #585450;
+  display: inline-block;
+  padding: 9px 12px;
+  font-weight: normal;
+  text-decoration: none;
+  float: left;
+  font-size: 15px;
+}
+*/
+		display :	table-cell	! important ;
+		float :	left	! important ;
+	/*
+		word-wrap :	nowrap	! important ;
+		overflow-wrap :	nowrap	! important ;
+	*/
+	}
+
+	#header div.site-links a:link	{
+		background-color :	#7d0000	! important ;
+	}
+
+	#header div.site-links a:visited	{
+		background-color :	#700000	! important ;
+ 	}
+
+
+	#header div.site-links a.menu ,
+	#header div.site-links a.home	{
+/* -
+ display: none;
+*/
+		display :	none	! important ;
+	}
+/*
+	#header div.site-links a.menu selected	{
+		display :	table-cell	! important ;
+	}
+*/
+
+
+/*
+a:hover img{
+opacity:0.8;
+filter:alpha(opacity=80);
+-ms-filter: "alpha( opacity=80 )";
+}
+*/
+
+
+
+		/*	20 min page	*/
+
+	div.multi-page	{
+/* -
+  margin: 20px 0 0;
+*/
+		margin-top :	.4em	! important ;
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+
+	}
+
+/* -
+div.multi-page span.separator { display: none; }
+div.multi-page a,
+div.multi-page strong {
+  padding: 5px 12px;
+  display: inline-block;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid #ebebe4;
+}
+*/
+
+	div.multi-page strong	{
+/* -
+  background: #ebebe4;
+  color: #555;
+  border-color: #ddd;
+*/
+		color :	black	! important ;
+	}
+
+/* -
+div.multi-page + h1 { margin-top: 20px; }
+*/
+
+
+	#footer	{
+/* -
+  background: #F6F6F3;
+  margin: 0 24px 48px;
+  padding: 0 24px 4px;
+  text-align: left;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 14px;
+  line-height: 17px;
+  border: 1px solid #ddd;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius:  3px;
+     -moz-border-radius-bottomright:  3px;
+     -moz-border-radius-bottomleft:   3px;
+          border-bottom-right-radius: 3px;
+          border-bottom-left-radius:  3px;
+*/
+		background :	black	! important ;
+	}
+
+	/*
+		position :	relative	! important ;
+		font-size :	0	! important ;
+		line-height :	0	! important ;
+		line-height :	0.9666	! important ;
+	*/
+
+
+/* -
+#footer a { color: #555; }
+#footer a:hover { color: #445488; }
+*/
+
+	#footer div.site-links	{
+/* -
+  clear: both;
+  background: #ebebe4;
+  overflow: hidden;
+  margin: 0 -24px;
+  padding: 0 0 0 15px;
+  border-bottom: 1px solid #ddd;
+*/
+		display :	inline-block	! important ;
+		background :	#7d0000	! important ;
+		width : 100%	! important ;
+		margin-bottom :	-.2em	! important ;
+	}
+
+	#footer div.site-links a	{
+/* -
+  display: inline-block;
+  padding: 8px 10px;
+  font-weight: normal;
+  text-decoration: underline;
+  float: left;
+*/
+		background :	transparent	! important ;
+		display :	inline-block	! important ;
+	}
+
+
+/*	div.post p:not(.post-info):not(.post-link)	{	*/
+
+	#footer p a[href*="//twitter.com/jz"]:after	{
+		content :	" ( Base code / a part of visual ) "	! important ;
+	}
+
+	#footer p ,
+	#footer p a ,
+	#footer p a:after	{
+		font-size :	90%	! important ;
+		letter-spacing :	-.005em	! important ;
+		word-spacing :	-.11em	! important ;
+		line-height :	1.1	! important ;
+		margin :	.2em	! important ;
+	}
+
+	#footer p a ,
+	#footer p a:after	{
+		word-spacing :	-.2em	! important ;
+	}
+
+	#footer p a	{
+		margin :	0 -.03em 0 -.05em	! important ;
+	}
+
+	#footer p:first-of-type a	{
+		letter-spacing :	.07em	! important ;
+		margin :	0 -.22em 0 -.12em	! important ;
+		word-spacing :	-.4em	! important ;
+	}
+/*
+	#footer #text:nth-last-child( 1 )	{
+		font-size : 1%	! important ;
+		line-height :	0	! important ;
+	}
+*/
+
+	div.site-links a	{
+		margin-left :	.1em	! important ;
+		margin-right :	.1em	! important ;
+	}
+
+
+	hr.hidden-modern	{
+/* -
+ display: none;
+*/
+		clear :	both	! important ;
+		display :	inline-block	! important ;
+		height :	2.5em	! important ;
+		width : 100%	! important ;
+	}
+
+	hr.hidden-modern:last-of-type	{
+		height :	1.5em	! important ;
+	}
+/*
+	hr:nth-last-of-type( 1 )	{
+		clear : both	! important ;
+		display :	block	! important ;
+		height :	10em	! important ;
+		width : 100%	! important ;
+
+		position: absolute;
+		top: 6em	! important ;
+		right: 4%	! important ;
+		text-align :	right	! important ;
+	}
+*/
+
+
+	#search-box	{
+/* -
+  text-align: left;
+  position: absolute;
+  top: 54px;
+  right: 24px;
+*/
+		right :	0	! important ;
+		margin-right :	0	! important ;
+		display :	inline-block	! important ;
+		background :	transparent	! important ;
+
+		/*	kaizoudo izon	*/
+		position :	absolute	! important ;
+		top :	.2em	! important ;
+		width :	40%	! important ;
+		height :	1.6em	! important ;
+	}
+
+	#search-box .fieldset	{
+/* -
+  float: right;
+*/
+		z-index :	9	! important ;
+		display :	table-cell	! important ;
+		height :	1.3em	! important; 
+		line-height :	1	! important ;
+		right :	0	! important ;
+		padding-right :	0	! important ;
+		min-width :	1%	! important ;
+
+		/*	kaizoudo izon	*/
+		position :	relative	! important ;
+	}
+
+	#search-form .field	{
+/* -
+  -webkit-appearance: none;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 6px 6px;
+  border: 1px solid #b0b0a4;
+  width: 180px;
+  background-position: 6px center !important;
+  -webkit-box-shadow: 0 1px 2px #ddd inset;
+     -moz-box-shadow: 0 1px 2px #ddd inset;
+          box-shadow: 0 1px 2px #ddd inset;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+*/
+		font-size :	80%	! important ;
+		line-height :	1.4em	! important ;
+		background :	#f7fbea url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif") repeat	! important;
+		color :	black	! important ;
+		width :	100%	! important ;
+		margin-right :	1.5em	! important ;
+
+		/*	kaizoudo izon	*/
+		background-position :	-4px 5px	! important;
+	}
+
+	#search-form .button	{
+/* -
+  -webkit-appearance: none;
+  display: inline-block;
+  background: #ebebe4;
+  color: #585450;
+  padding: 7px 12px;
+  font-size: 13px;
+  line-height: 13px;
+  text-decoration: none;
+  margin: 0 0 0 6px;
+  text-shadow: 0 1px 0 #fff;
+  border: 1px solid #c2c2b8;
+  font-weight: normal;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 2px 0 #c2c2b8;
+     -moz-box-shadow: 0 2px 0 #c2c2b8;
+          box-shadow: 0 2px 0 #c2c2b8;
+*/
+
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		letter-spacing :	-.05em	! important ;
+		cursor :	default	! important ;
+		background :	#d3dce6	! important ;
+		color :	black	! important ;
+
+		position :	relative	! important ;
+/*
+		margin-bottom :	-.2em	! important ;
+		padding :	0 .2em 0 .35em	! important ;
+		text-align :	right	! important ;
+		height :	1.25em	! important ;
+*/
+		/*	kaizoudo izon	*/
+		font-size :	95%	! important ;
+		min-width :	2.5em	! important ;
+		line-height :	1.4em	! important ;
+	}
+
+	.button:hover	{
+		opacity : 1	! important ;
+	}
+
+
+
+	/*	Subscription Form	*/
+
+/* -
+#subscriptions-form table	{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+	#subscriptions-form table th ,	td	{
+/* -
+	padding: 0;
+*/
+		background-color :	transparent	! important;
+	}
+
+/* -
+#subscriptions-form table input {
+  -webkit-appearance: none;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 6px 6px;
+  border: 1px solid #b0b0a4;
+  background-position: 6px center !important;
+  outline: none;
+  -webkit-box-shadow: 0 1px 2px #ddd inset;
+     -moz-box-shadow: 0 1px 2px #ddd inset;
+          box-shadow: 0 1px 2px #ddd inset;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+*/
+
+	#subscriptions-form table input ,
+	#subscriptions-form table select ,
+/* -
+  margin-left: 15px;
+  min-width: 260px;
+*/
+	#subscriptions-form table select option	{
+		color :	black	! important;
+		background-color :	#d3dce6	! important ;
+	}
+
+	#subscriptions-form table select option:hover	{
+		color :	white	! important;
+		background :	#e00 url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif") repeat	! important;
+		background-position :	12% 53%	! important;
+		background-size :	400% auto	! important ;
+		-moz-background-size :	400% auto	! important ;
+	}
+
+	#subscriptions-form table tr:nth-of-type( 2 ) select option:last-of-type:hover	{
+		background :	none	! important;
+	}
+
+	#subscriptions-form table input	{
+		background-color :	#d3dce6	! important ;
+	}
+
+/* -
+#subscriptions-form td { min-width: 120px; }
+*/
+
+	#subscriptions-form table tr	{
+/* -
+  font-size: 14px;
+  margin-top: 2px;
+  background: #f6f6f6;
+  padding: 10px 2%;
+  color: #666;
+  float: left;
+*/
+		background-color :	black	! important;
+	}
+
+	.buttons .button	{
+/* -
+  -webkit-appearance: none;
+  display: inline-block;
+  background: #bc3f33;
+  color: #fff;
+  padding: 7px 12px;
+  font-size: 13px;
+  line-height: 13px;
+  text-decoration: none;
+*/
+		font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		cursor :	default	! important ;
+		background :	#d3dce6	! important ;
+		color :	black	! important ;
+
+		padding :	0 .2em 0 .35em	! important ;
+		line-height :	1.4em	! important ;
+/*
+		font-size :	95%	! important ;
+		height :	1.25em	! important ;
+*/
+	}
+
+/* -
+.button:hover { opacity: .7; }
+*/
+
+
+
+/*	pygments.css	*/
+
+
+	.hll	{ background-color: #ffffcc	! important	! important }
+	/* .err	{ border: 1px solid #FF0000	! important } Error */
+	.c 	{ color: #428bdd	! important } /* Comment */
+	.cm	{ color: #428bdd	! important } /* Comment.Multiline */
+	.cp	{ color: #BC7A00	! important } /* Comment.Preproc */
+	.c1	{
+		color: #428bdd	! important ;
+		font-style :	 normal	! important ;
+		line-height :	.9	! important ;
+	} /* Comment.Single */
+	.cs	{ color: #428bdd	! important } /* Comment.Special */
+	.ge	{ font-style: italic	! important } /* Generic.Emph */
+	.gs	{ font-weight: bold 	! important } /* Generic.Strong */
+	.gd	{ color: #FF0000	! important } /* Generic.Deleted */
+	.gr	{ color: #FF0000	! important } /* Generic.Error */
+	.gh	{ color: #0040D0	! important } /* Generic.Heading */
+	.gi	{ color: #00A000	! important } /* Generic.Inserted */
+	.go	{ color: #808080	! important } /* Generic.Output */
+	.gp	{ color: #0040D0	! important } /* Generic.Prompt */
+	.gu	{ color: #0040D0	! important } /* Generic.Subheading */
+	.gt	{ color: #0040D0	! important } /* Generic.Traceback */
+	.k 	{ color: #f9bb00	! important } /* Keyword */
+	.kc	{ color: #f9bb00	! important } /* Keyword.Constant */
+	.kd	{ color: #f9bb00	! important } /* Keyword.Declaration */
+	.kn	{ color: #f9bb00	! important } /* Keyword.Namespace */
+	.kp	{ color: #8aa6c1	! important } /* Keyword.Pseudo */
+	.kr	{ color: #f9bb00	! important } /* Keyword.Reserved */
+	.kt	{ color: #f9bb00	! important } /* Keyword.Type */
+	.m 	{ color: #eddd3d	! important } /* Literal.Number */
+	.mf	{ color: #eddd3d	! important } /* Literal.Number.Float */
+	.mh	{ color: #eddd3d	! important } /* Literal.Number.Hex */
+	.mi	{ color: #eddd3d	! important } /* Literal.Number.Integer */
+	.il	{ color: #eddd3d	! important } /* Literal.Number.Integer.Long */
+	.mo	{ color: #eddd3d	! important } /* Literal.Number.Oct */
+	.n 	{ color: #fff   	! important } /* Name */
+	.na	{ color: #8aa6c1	! important } /* Name.Attribute */
+	.nb	{ color: #fff   	! important } /* Name.Builtin */
+	.bp	{ color: #fff   	! important } /* Name.Builtin.Pseudo */
+	.nc	{ color: #fff   	! important } /* Name.Class */
+	.no	{ color: #fff   	! important } /* Name.Constant */
+	.nd	{ color: #AA22FF	! important } /* Name.Decorator */
+	.ni	{ color: #999999	! important } /* Name.Entity */
+	.ne	{ color: #f44   	! important } /* Name.Exception */
+	.nf	{ color: #fff   	! important } /* Name.Function */
+	.nl	{ color: #A0A000	! important } /* Name.Label */
+	.nn	{ color: #8aa6c1	! important } /* Name.Namespace */
+	.nt	{ color: #f9bb00	! important } /* Name.Tag */
+	.nv	{ color: #8aa6c1	! important } /* Name.Variable */
+	.vc	{ color: #8aa6c1	! important } /* Name.Variable.Class */
+	.vg	{ color: #fff   	! important } /* Name.Variable.Global */
+	.vi	{ color: #8aa6c1	! important } /* Name.Variable.Instance */
+	.o 	{ color: #8aa6c1	! important } /* Operator */
+	.ow	{ color: #f9bb00	! important } /* Operator.Word */
+	.s 	{ color: #00cc00	! important } /* Literal.String */
+	.sb	{ color: #00cc00	! important } /* Literal.String.Backtick */
+	.sc	{ color: #f44   	! important } /* Literal.String.Char */
+	.sd	{ color: #00cc00	! important } /* Literal.String.Doc */
+	.s2	{ color: #00cc00	! important } /* Literal.String.Double */
+	.se	{ color: #eddd3d	! important } /* Literal.String.Escape */
+	.sh	{ color: #00cc00	! important } /* Literal.String.Heredoc */
+/*
+	.sh:after	{
+		clear :	both	! important ;
+		display :	block	! important ;
+		width :	4096px	! important ;
+		height :	16px	! important ;
+	}
+
+	.sh > *	{
+		display :	inline-block	! important ;
+		word-wrap :	nowrap	! important ;
+		overflow-wrap :	nowrap	! important ;
+	}
+*/
+
+	.si	{ color: #f44   	! important } /* Literal.String.Interpol */
+	.sx	{ color: #00cc00	! important } /* Literal.String.Other */
+	.sr	{ color: #f44   	! important } /* Literal.String.Regex */
+	.s1	{ color: #00cc00	! important } /* Literal.String.Single */
+	.ss	{ color: #f44   	! important } /* Literal.String.Symbol */
+	.w 	{ color: #bbbbbb	! important } /* Text.Whitespace */
+
+
+
+
+/*	mobile.css	*/
+
+	#home-page-layout #intro a.download-link	{
+/* -
+    display: inline-block;
+    background: #CC342D url(/images/download-ruby-arrow@2x.png) no-repeat 8px center;
+    background-size: 30px 25px;
+    color: white;
+    padding: 8px 20px 8px 45px;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    margin: 0 3px 0 0;
+    text-shadow: none;
+    border: 2px solid #9b1c16;
+    font-weight: normal;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+    -webkit-box-shadow: 0 2px 0 #9b1c16;
+       -moz-box-shadow: 0 2px 0 #9b1c16;
+            box-shadow: 0 2px 0 #9b1c16;
+*/
+		clear :	both	! important ;
+		display :	inline-block	! important ;
+		background :	#7d0000 url("http://raw.github.com/jzimdars/www.ruby-lang.org/90c185b281454a20f7c22461b024d15fba2aec08/images/download-ruby-arrow.png") no-repeat .5em center	! important ;
+		position :	relative	! important ;
+
+		white-space :	nowrap	! important ;
+		word-wrap :	nowrap	! important ;
+		overflow-wrap :	nowrap	! important ;
+	/*
+		padding :	.45em .5em .4em 2.5em	! important ;
+		vertical-align :	middle	! important ;
+		background-size :	2.34em 1.9em	! important ;
+		-moz-background-size :	2.34em 1.9em	! important ;
+		z-index :	5	! important ;
+	*/
+
+		/*	kaizoudo izon	*/
+		padding :	.4em .5em .3em 28pt	! important ;
+		line-height :	2.1	! important ;
+	}
+
+	/*
+		z-index :	6	! important ;
+		position :	relative	! important ;
+		vertical-align :	middle	! important ;
+		background :	#7d0000	! important ;
+		line-height :	2.4	! important ;		*	FuruiMozillaTaisaku	*
+		padding :	.4em .3em .6em 0	! important ;	*	Furui Mozilla taisaku	*
+	*/
+	/*
+		margin-left :	5%	! important ;	*	FuruiMozillaTaisaku	*
+		padding :	.45em .5em .4em 2.5em	! important ;	*	Furui Mozilla taisaku	*
+		line-height :	2.1	! important ;	*	FuruiMozillaTaisaku	*
+		display :	table-cell	! important ;
+		background :	#7d0000 url("http://raw.github.com/jzimdars/www.ruby-lang.org/90c185b281454a20f7c22461b024d15fba2aec08/images/download-ruby-arrow.png") no-repeat .5em .2em	! important ;
+		-moz-background-size :	2.34em 1.9em	! important ;
+
+	*/
+
+
+	/*	FuruiMozillaTaisaku	*/
+/*
+	#home-page-layout #intro a.download-link:before {
+		z-index :	5	! important ;
+		position :	relative	! important ;
+		display :	inline	! important ;
+			vertical-align :	middle	! important ;
+		content :	""	! important ;
+		background :	url("http://raw.github.com/jzimdars/www.ruby-lang.org/90c185b281454a20f7c22461b024d15fba2aec08/images/download-ruby-arrow.png") no-repeat center center	! important ;
+		background-color :	#7d0000	! important ;
+		color :	transparent	! important ;
+		font-size :	2.8	! important ;
+
+		margin-right :	-.2em	! important ;
+		padding :	.5em 3em .5em 0	! important ;
+*/
+/*
+		top :	.2em	! important ;
+		line-height :	2.8	! important ;
+		overflow :	hidden	! important ;
+		left :	-.5em	! important ;
+		text-decoration :	none ! important ;
+	}
+*/
+
+
+
+/* -
+  #home-page-layout #intro a.download-link:active {
+    background-color: #9b1c16;
+    border-color: #760f0a;
+  }
+*/
+
+	#home-page-layout #intro a.download-link:visited	{
+		background-color :	#700000	! important ;
+	}
+
+
+
+
+
+
+
+	@media screen and ( min-width :	1px )	{	/*	FuruiMozillaTaisaku	*/
+
+		h1 + #content > p	{
+			max-width :	100%	! important ;
+		}
+
+		#content ul ,	#content dl	{
+			width :	100%	! important ;
+		}
+
+		div.post	{
+			margin-right :	4%	! important ;
+		}
+
+		#sidebar-wrapper	{
+			max-width :	100%	! important ;
+		/*
+			horizontal-align :	right	! important ;
+		*/
+			float :	right	! important ;
+			top :	0	! important ;
+		}
+
+		#home-page-layout #intro-container	{
+			width :	97.3%	! important ;
+		}
+
+		#home-page-layout #intro h1	{
+			font-size :	1.5em	! important ;
+			line-height :	130%	! important ;
+		}
+
+		#home-page-layout #code	{
+			margin-top :	.1em	! important ;
+			margin-right :	auto	! important ;
+			margin-left :	auto	! important ;
+		}
+
+		#home-page-layout #code .ruby	{
+ 			padding-right :	0	! important ;
+ 			padding-left :	0	! important ;
+		}
+
+		#header_content > a	{
+			display :	inline-block ! important ;
+			background :	url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif")	! important;
+			background-size :	cover	! important ;
+			-moz-background-size :	cover	! important ;
+			width :	100%	! important;
+			height :	35.95%	! important;
+			padding-bottom :	35.95%	! important ;
+			max-width :	331px	! important ;
+		/*
+			max-height :	119px	! important ;
+		*/
+		}
+
+		#header_content > a:before	{
+			display :	none ! important ;
+		}
+
+		#home-page-layout #intro-wrapper	{
+			max-height :	35.1em	! important ;
+			height :	35.1em	! important ;
+		}
+
+		#home-page-layout #content-wrapper	{
+			padding-bottom :	35.1em	! important ;
+		}
+
+		#home-page-layout #content	{
+			top :	35.1em	! important ;
+		}
+
+		#search-box	{
+			top :	-.4em	! important ;\
+			margin-top :	-.4em	! important ;
+		/*
+		*/
+			height :	1.4em	! important ;
+		}
+
+		#search-form .fieldset	{
+		}
+
+		#search-form .field	{
+			width :	100%	! important ;
+			font-size :	70%	! important ;
+		}
+
+		#search-form .button	{
+			top :	-.04em	! important ;
+			min-width :	2em	! important ;
+			font-size :	70%	! important ;
+			line-height :	1em	! important ;
+			letter-spacing :	-.2em	! important ;
+			padding-top :	-.5em	! important ;
+		/*
+			height :	1.5em	! important ;
+			line-height :	1.2	! important ;
+			margin-top :	-.5em	! important ;
+			min-width :	1.5em	! important ;
+		*/
+		}
+
+		#home-page-layout #intro a.download-link	{
+			padding :	0 .3em .1em .7em	! important ;
+			line-height :	1.4	! important ;
+
+			background-position :	-.6em center	! important ;
+			background-size :	15px auto	! important ;
+
+			margin-top :	0.1%	! important ;
+			margin-bottom :	0.1%	! important ;
+			bottom :	.5pt	! important ;
+		/*
+			background-position :	-.4em center	! important ;
+			background-size :	auto 40%	! important ;
+			padding :	0 .3em .1em .5em	! important ;
+
+			background-position :	.3em center	! important ;
+			background-size :	auto 85%	! important ;
+			padding :	0 .35em 0 2.7em	! important ;
+			line-height :	1	! important ;
+		*/
+		}
+
+		#home-page-layout #intro a.download-link:before	{
+			margin-right :	-.1em	! important ;
+		}
+
+		#home-page-layout #intro a	{
+			word-spacing :	-.2em	! important ;
+			letter-spacing :	-.0001em	! important ;
+		}
+	}
+
+	@media screen and ( min-width :	128px )	{
+
+		#home-page-layout #intro-wrapper	{
+
+			max-height :	28.1em	! important ;
+			height :	28.1em	! important ;
+		}
+
+		#home-page-layout #content-wrapper	{
+			padding-bottom :	28.1em	! important ;
+		}
+
+
+		#home-page-layout #content	{
+			top :	28.1em	! important ;
+		}
+
+		#home-page-layout #intro a.download-link	{
+			background-position :	-.4em center	! important ;
+			padding-left :	.9em	! important ;
+			line-height :	1.5	! important ;
+		/*
+			line-height :	2.1	! important ;
+		*/
+		}
+
+	}
+
+	@media screen and ( min-width :	144px )	{
+
+		#home-page-layout #code .ruby	{
+ 			padding-right :	.5em	! important ;
+ 			padding-left :	1em	! important ;
+		}
+
+		#home-page-layout #intro a.download-link	{
+			background-position :	-.3em center	! important ;
+			padding-left :	1em	! important ;
+			line-height :	1.6	! important ;
+		/*
+			background-size :	auto 50%	! important ;
+		*/
+		}
+
+		#home-page-layout #intro a	{
+			word-spacing :	-.1em	! important ;
+		}
+
+		#search-box	{
+			margin-top :	0	! important ;
+		}
+
+	}
+
+	@media screen and ( min-width :	192px )	{
+
+		#home-page-layout #intro-wrapper	{
+			max-height :	26.1em	! important ;
+			height :	26.1em	! important ;
+		}
+
+		#home-page-layout #code	{
+			margin-right :	1%	! important ;
+		}
+
+		#home-page-layout #content	{
+			top :	26.1em	! important ;
+		}
+
+		#home-page-layout #content-wrapper	{
+			padding-bottom :	26.1em	! important ;
+		}
+
+		#home-page-layout #intro a.download-link	{
+			background-position :	-.1em center	! important ;
+			line-height :	1.7	! important ;
+
+			padding-left :	1.2em	! important ;
+			bottom :	0	! important ;
+		/*
+			background-size :	auto 60%	! important ;
+			padding :	0 .35em .1em 1.2em	! important ;
+		*/
+		}
+
+		#search-box	{
+			top :	-.3em	! important ;
+		}
+
+	}
+
+	@media screen and ( min-width :	256px )	{
+
+		#home-page-layout #code	{
+			margin-right :	3.5%	! important ;
+		}
+
+		#search-box	{
+			top :	.2em	! important ;
+		}
+
+	}
+
+	@media screen and ( min-width :	320px )	{
+
+		#content-wrapper	{
+			width :	75%	! important ;
+		}
+
+		h1 + #content > p	{
+			width :	90%	! important ;
+			min-width :	80%	! important ;
+			max-width :	95%	! important ;
+		}
+
+		#content ul ,	#content dl	{
+			width :	98%	! important ;
+		}
+
+		div.post	{
+			margin-right :	7%	! important ;
+		}
+
+		#sidebar-wrapper	{
+			max-width :	23.5%	! important ;
+		}
+
+		#sidebar	{
+			margin-left :	16%	! important ;
+			max-width :	95%	! important ;
+		} 
+
+		#home-page-layout #intro-container	{
+			width :	68%	! important ;
+		}
+
+		#home-page-layout #intro h1	{
+			font-size :	1.66em	! important ;
+			line-height :	1.777	! important ;
+		}
+
+		#home-page-layout #code	{
+ 			margin-right :	auto	! important ;
+		}
+
+		#home-page-layout #code .ruby	{
+ 			padding-right :	1em	! important ;
+ 			padding-left :	1.5em	! important ;
+		}
+
+		#home-page-layout #content-wrapper	{
+			width :	75%	! important ;
+		}
+
+		#search-box	{
+			width :	31.5%	! important ;
+
+			margin-left :	78.5%	! important ;
+		}
+
+		#search-form .field	{
+			width :	100%	! important ;
+			background-position :	0 6px	! important;
+
+		}
+		#search-form .button	{
+			min-width :	3em	! important ;
+		/*
+			line-height :	1.4em	! important ;
+			min-width :	4em	! important ;
+			height :	1.25em	! important ;
+			padding :	0 .2em 0 .35em	! important ;
+		*/
+		}
+
+		hr.hidden-modern	{
+			display :	none	! important ;
+		}
+
+		#home-page-layout #intro a.download-link	{
+			background-position :	-.2em center	! important ;
+			line-height :	1.8	! important ;
+
+			padding-left :	1.1em	! important ;
+		}
+
+	}
+
+	@media screen and ( min-width :	352px )	{
+
+		#content-wrapper	{
+			width :	76%	! important ;
+		}
+
+		#home-page-layout #code .ruby	{
+ 			padding-right :	1.8em	! important ;
+ 			padding-left :	2em	! important ;
+		}
+
+		#header_content > a	{
+			background-size :	100% 100%	! important ;
+			-moz-background-size :	100% 100%	! important ;
+			width :	331px	! important; 
+			height :	119px	! important; 
+			padding-bottom :	0	! important ;
+		}
+	/*
+		#header_content > a:before	{
+			content :	url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif")	! important;
+			position :	relative	! important ;
+			top :	0	! important ;
+			left :	0	! important ;
+		}
+	*/
+		#search-form .button	{
+			letter-spacing :	inherit	! important ;
+			min-width :	4em	! important ;
+		}
+
+		#home-page-layout #intro a.download-link	{
+			line-height :	1.9	! important ;
+
+			background-position :	-.1em center	! important ;
+			padding-left :	1.2em	! important ;
+		/*
+			background-position :	-.2em center	! important ;
+			background-size :	auto 65%	! important ;
+			padding-left :	1.5em	! important ;
+		*/
+		}
+
+		#home-page-layout #intro a	{
+			word-spacing :	inherit	! important ;
+			letter-spacing :	inherit	! important ;
+		}
+
+	}
+
+	@media screen and ( min-width :	576px )	{
+
+		#sidebar-wrapper	{
+			max-width :	23%	! important ;
+		}
+
+		#home-page-layout #intro-container	{
+			width :	70%	! important ;
+		}
+
+		#home-page-layout #intro	{
+			display :	table-cell	! important ;
+			height :	26.1em	! important ;
+		}
+
+		#home-page-layout #code pre	{
+			clear :	both	! important ;
+
+			float :	none	! important ;
+		}
+
+		#home-page-layout #code	{
+			display :	table-cell	! important ;
+			vertical-align :	middle	! important ;
+			horizontal-align :	middle	! important ;
+			max-width :	100%	! important ;
+			min-width :	0	! important ;
+			width :	auto	! important ;
+			margin-right :	auto	! important ;
+			margin-left :	auto	! important ;
+
+			padding-right	:	auto	! important ;
+			height :	100%	! important ;
+		}
+
+		#home-page-layout #code .ruby	{
+ 			padding-right :	2em	! important ;
+ 			padding-left :	2.5m	! important ;
+		}
+
+		#home-page-layout #content	{
+			-webkit-columns :	2	! important ;
+			-moz-columns :	2	! important ;
+			-ms-columns :	2	! important ;
+			-o-columns :	2	! important ;
+			columns :	2	! important ;
+		}
+
+		#header_content > a	{
+			position :	absolute	! important ;
+		}
+
+		#header div.site-links	{
+			top :	.256em	! important ;
+			padding-left :	333px	! important ;	/*	331px + 2px	*/
+			position :	absolute	! important ;
+		}
+
+		#search-box	{
+			position :	relative	! important ;
+			top :	0	! important ;
+			width :	24.5%	! important ;
+			height :	auto	! important ;
+
+			margin-left :	75.5%	! important ;
+		}
+
+		#search-box:after	{
+			display :	inline-block	! important ;
+			position :	relative	! important ;
+			z-index :	0	! important ;
+			content :	url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif")	! important;
+			bottom :	256px	! important ;
+			margin-left :	100%	! important ;
+			padding-left :	100%	! important ;
+			height :	119px	! important ;
+			overflow :	hidden	! important ;
+		}
+
+		#search-box .fieldset	{
+			top :	102px	! important ;	/*	108px	*/
+			position :	absolute	! important ;
+		}
+
+		#search-form .field	{
+			background-position :	24px 9px	! important;
+			height :	1.6em	! important; 
+			font-size :	70%	! important ;
+			line-height :	1	! important; 
+		/*
+		*/
+		}
+
+		#search-form .button	{
+			margin-top :	.1em	! important ;
+			min-height :	1.5em	! important; 
+		/*
+			line-height :	1.4	! important; 
+			top :	0.02em	! important ;
+		*/
+		}
+
+		#home-page-layout #intro a.download-link	{
+			background-position :	.3em center	! important ;
+			background-size :	30px auto	! important ;
+			padding-left :	3em	! important ;
+		/*
+			background-size :	auto 70%	! important ;
+			padding-left :	2.2em	! important ;
+		*/
+		}
+
+	}
+
+	@media screen and ( min-width :	640px )	{
+
+		#home-page-layout #code .ruby	{
+ 			padding-right :	3em	! important ;
+ 			padding-left :	3.5em	! important ;
+		}
+
+		#search-box	{
+			width :	25.5%	! important ;
+
+			margin-left :	74.5%	! important ;
+		}
+
+		#search-form .field	{
+			background-position :	32px 9px	! important;
+		}
+
+		#search-form .button	{
+			min-width :	4.5em	! important ;
+			font-size :	95%	! important ;
+		/*
+			margin-top :	-.1em	! important ;
+			height :	auto	! important; 
+		*/
+		}
+
+		#home-page-layout #intro a.download-link	{
+			line-height :	2.4	! important ;
+		/*
+			background-position :	.4em center	! important ;
+			background-size :	auto 75%	! important ;
+			padding-left :	2.4em	! important ;
+		*/
+		}
+	}
+
+	@media screen and ( min-width :	768px )	{
+
+		#home-page-layout #intro-wrapper	{
+			max-height :	21.1em	! important ;
+			height :	21.1em	! important ;
+		}
+
+		#home-page-layout #intro	{
+			display :	table-cell	! important ;
+			height :	21.1em	! important ;
+		}
+
+		#home-page-layout #intro p	{
+			max-width :	100%	! important ;
+			width :	auto	! important ;
+			width :	128pt	! important ;
+		}
+
+		#home-page-layout #content	{
+			top :	21.1em	! important ;
+		}
+
+		#home-page-layout #content-wrapper	{
+			padding-bottom :	21.1em	! important ;
+		}
+
+		#home-page-layout #content	{
+			top :	21.1em	! i	mportant ;
+			-webkit-columns :	3	! important ;
+			-moz-columns :	3	! important ;
+			-ms-columns :	3	! important ;
+			-o-columns :	3	! important ;
+			columns :	3	! important ;
+		}
+
+		#search-form .field	{
+			background-position :	68px 9px	! important;
+		}
+
+		#search-form .button	{
+			font-size :	100%	! important ;
+		}
+
+		#home-page-layout #intro a.download-link	{
+			line-height :	2.5	! important ;
+		/*
+			background :	#7d0000 url("http://raw.github.com/jzimdars/www.ruby-lang.org/90c185b281454a20f7c22461b024d15fba2aec08/images/download-ruby-arrow%402x.png") no-repeat .4em center	! important ;
+			background-size :	auto 80%	! important ;
+			padding-left :	2.5em	! important ;
+		*/
+		}
+	}
+
+	@media screen and ( min-width :	1000px )	{
+
+		#search-box	{
+		/*
+			display :	table-cell	! important ;
+			horizontal-align :	right	! important ;
+		*/
+		}
+
+		#search-form .field	{
+			width :	100%	! important ;
+			margin-right :	1em	! important ;
+			background-position :	77px 9px	! important;
+		}
+
+		#search-form .button	{
+			min-width :	5em	! important ;
+		}
+		#home-page-layout #intro a.download-link	{
+			padding-left :	3.1em	! important ;
+		/*
+			background-position :	.4em center	! important ;
+			background-size :	auto 85%	! important ;
+			padding-left :	2.8em	! important ;
+		*/
+		}
+	}
+
+	@media screen and ( min-width :	1025px )	{
+
+		#sidebar-wrapper	{
+			max-width :	20%	! important ;
+		}
+
+		#search-box	{
+			width :	25.5%	! important ;
+
+			margin-left :	74.5%	! important ;
+		}
+
+		#search-form .field	{
+			background-position :	108px 9px	! important;
+		}
+
+	}
+
+	@media screen and ( min-width :	1400px )	{
+
+		#home-page-layout #intro p	{
+			margin-bottom :	1em	! important ;
+		}
+
+	}
+
+
+
+
+
+
+	@-moz-document	regexp(".*/news/.*")	{	/*	url-prefix("http://ruby-lang.org/ja/news/") ,	*/
+
+		h1 + #content > .post > h3 + p:nth-child( 2 )	{
+			display :	none	! important ;
+		}
+
+		h1 + #content > .post > h3 ~ p:nth-child( 3 )	{
+			margin-left :	1.6em	! important ;
+		}
+
+		h1 + #content > .post > h3 ~ p:empty	{
+			font-size :	.01%	! important ;
+			margin-left :	-2em	! important ;	/*	em ?	*/
+		}
+
+		h1 + #content > .post > .post-info:nth-child(6)	{
+			position :	relative	! important ;
+			display :	block	! important ;
+			margin-left :	1.7em	! important ;
+		}
+
+
+		/*	download	*/
+
+		h1 + #content > p ~ ul ~ h2 ~ ul:nth-of-type( 2 )	{
+			-moz-column-width :	30em	! important ;
+		}
+
+		h2	{
+			clear :	both	! important ;
+			margin-top :	.5em	! important ;
+		}
+
+	}
+
+
+	@-moz-document	regexp(".*/downloads/.*")	{
+
+		h1 + #content h2 + p	{	/*	h2 : kouka nasi ?	*/
+			margin-top :	.5em	! important ;
+		}
+
+		h1 + #content h2 ~ h3	{	/*	? NihonGo ?	*/
+		/*
+			font-size :	100% ! important ;
+			line-height :	1	! important ;
+		*/
+			margin-top :	-.00001em	! important ;
+			margin-bottom :	-.1em	! important ;
+		}
+
+		h1 + #content h3 ~ h4	{	/*	? EiGo ?	*/
+			font-size :	100% ! important ;
+			margin-top :	-.5em	! important ;
+			margin-bottom :	.1em	! important ;
+		}
+
+		h1 + #content h3:last-of-type	{	/*	EiGo	*/
+			margin-top :	.2em	! important ;
+			margin-bottom :	-.01em	! important ;
+		}
+	/*
+		h3	{
+			font-size :	1.2em	! important ;
+			line-height :	1.3	! important ;
+			margin-top :	.9em	! important ;
+			margin-bottom :	-.4em	! important ;
+			font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		}
+
+		h4	{
+			margin-top :	.6em	! important ;
+			margin-bottom :	.4em	! important ;
+			font-family :	Georgia ,	Palatino ,	"Times New Roman" ,	Times ,	serif	! important ;
+		}
+	*/
+	}
+
+	@-moz-document	regexp(".*/security/.*")	{
+
+		h1 + #content li	{
+			font-size :	60%	! important ;
+			line-height :	.5	! important ;	! important ;
+		}
+
+		h1 + #content li a	{
+			display	:	inline	! important ;
+			font-size :	166.67%	! important ;
+			line-height :	1	! important ;
+		}
+
+		h1 + #content li a:after	{
+			display	:	block	! important ;
+			content :	""	! important ;
+			horizontal-align : right	! important ;
+		/*
+			float : right	! important ;
+			word-wrap :	pre	! important ;
+			overflow-wrap :	pre	! important ;
+			white-space :	nowrap	! important ;
+		*/
+		}
+
+	}
+
+}
+
+
+
+
+
+
+
+/*
+#page-proxy-favicon,
+#contentView treechildren::-moz-tree-image(title,leaf),
+#bookmarks-view treechildren::-moz-tree-image(leaf),
+#history-panel treechildren::-moz-tree-image(leaf),
+.tab-icon-image,
+.bookmark-item:not([container]):not([image]),
+.menuitem-with-favicon.menu-iconic-icon {
+
+		list-style-image :	url("http://f.cloud.github.com/assets/5885954/1700053/d71eedd2-5feb-11e3-8584-9c57be134b17.png")	! important;
+		list-style-image: url("image/defaultFavicon.png") !important;
+		list-style-image: url("chrome://global/skin/icons/folder-item.png")!important;
+
+		list-style-image :	url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA20lEQVR4Xr2RMQqEMBBFR0kjWImdlXgAL2ATr7DN7vksdps9g50XsBVyAsEyATU7ERQJkw2ysB+G/GLm5WcCvyrYTdd12tkUBG8p5Z1zPtsAtptlWaCqKrCFgzCOIxdCPNu2fdiQ8AygNE0TZFmW5HleYxIDYZcBqA1SFEWNfS/yCeu6kgClFDRNA3Ecm0owxc25A0plWUIURQdQCOFeokmhtd4Kdfg0TQ8/DIMbYDZuDxsxxownk4YWwFsIuJzgfHoB1DABoL+RBNgg7HMnUEp9u93/hL7v4e/6ABRB9HkHB7uyAAAAAElFTkSuQmCC')	! important ;
+		-moz-image-region: rect(0px, 16px, 16px, 0px)	! important ;
+	}
+*/
+
+
+
+/*
+#page-proxy-favicon:not(src),
+#contentView treechildren::-moz-tree-image(title,leaf),
+#bookmarks-view treechildren::-moz-tree-image(leaf),
+#history-panel treechildren::-moz-tree-image(leaf),
+.tab-icon-image:not(src),
+.bookmark-item:not([container]):not([image]),
+.menuitem-with-favicon.menu-iconic-icon:not(src) {
+
+	list-style-image :	url("http://f.cloud.github.com/assets/5885954/1700053/d71eedd2-5feb-11e3-8584-9c57be134b17.png")	! important;
+	list-style-image: url("image/defaultFavicon.png") !important;
+	list-style-image: url("chrome://global/skin/icons/folder-item.png")!important;
+	list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA20lEQVR4Xr2RMQqEMBBFR0kjWImdlXgAL2ATr7DN7vksdps9g50XsBVyAsEyATU7ERQJkw2ysB+G/GLm5WcCvyrYTdd12tkUBG8p5Z1zPtsAtptlWaCqKrCFgzCOIxdCPNu2fdiQ8AygNE0TZFmW5HleYxIDYZcBqA1SFEWNfS/yCeu6kgClFDRNA3Ecm0owxc25A0plWUIURQdQCOFeokmhtd4Kdfg0TQ8/DIMbYDZuDxsxxownk4YWwFsIuJzgfHoB1DABoL+RBNgg7HMnUEp9u93/hL7v4e/6ABRB9HkHB7uyAAAAAElFTkSuQmCC') !important;
+	-moz-image-region: rect(0px, 16px, 16px, 0px)!important;
+	}
+*/
+
+
+
+/*
+#page-proxy-favicon:not([src]),
+.bookmark-item:not([container]):not([image]),
+.tabbrowser-tabs tab:not([busy]) .tab-icon-image:not([src])
+{
+	list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA20lEQVR4Xr2RMQqEMBBFR0kjWImdlXgAL2ATr7DN7vksdps9g50XsBVyAsEyATU7ERQJkw2ysB+G/GLm5WcCvyrYTdd12tkUBG8p5Z1zPtsAtptlWaCqKrCFgzCOIxdCPNu2fdiQ8AygNE0TZFmW5HleYxIDYZcBqA1SFEWNfS/yCeu6kgClFDRNA3Ecm0owxc25A0plWUIURQdQCOFeokmhtd4Kdfg0TQ8/DIMbYDZuDxsxxownk4YWwFsIuJzgfHoB1DABoL+RBNgg7HMnUEp9u93/hL7v4e/6ABRB9HkHB7uyAAAAAElFTkSuQmCC') !important;
+}
+
+*/
+
+
+
+
+/*
+text-indent:100%;
+white-space:nowrap;
+overflow:hidden;
+
+Nash method + fallback
+
+.ir {
+    height: 100px;
+    width: 400px;
+    overflow: hidden;
+    *text-indent: -9999px; * for IE7/6 *
+    *background: url(image.png) no-repeat 0 0; * for IE7/6 *
+}
+
+.ir:before {
+    content: url(image.png);
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+*/
