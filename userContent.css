@@ -587,9 +587,9 @@ pre	{
 
 	.container	{
 /* -
-	max-width: 980px;
-	margin: 0 auto;
-	text-align: left;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: left;
 */
 		max-width :	100%	! important ;
 	}
@@ -1609,7 +1609,7 @@ div.post h3 a:hover { text-decoration: underline; }
 	}
 
 	#header_content > a:before	{	/*	FuruiMozillaTaisaku	*/
-		content :	url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif")	! important;
+		content :	url("http://raw.githubusercontent.com/ysei/CSS_-_ruby-lang.org/master/www.ruby-lang.org_-_Logo_-_Siro.gif")	! important;
 		position :	relative	! important ;
 		top :	0	! important ;
 		left :	0	! important ;
@@ -1952,7 +1952,7 @@ div.multi-page + h1 { margin-top: 20px; }
 */
 		font-size :	80%	! important ;
 		line-height :	1.4em	! important ;
-		background :	#f7fbea url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif") repeat	! important;
+		background :	#f7fbea url("http://raw.githubusercontent.com/ysei/CSS_-_ruby-lang.org/master/www.ruby-lang.org_-_Logo_-_Siro.gif") repeat	! important;
 		color :	black	! important ;
 		width :	100%	! important ;
 		margin-right :	1.5em	! important ;
@@ -2055,7 +2055,7 @@ div.multi-page + h1 { margin-top: 20px; }
 
 	#subscriptions-form table select option:hover	{
 		color :	white	! important;
-		background :	#e00 url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif") repeat	! important;
+		background :	#e00 url("http://raw.githubusercontent.com/ysei/CSS_-_ruby-lang.org/master/www.ruby-lang.org_-_Logo_-_Siro.gif") repeat	! important;
 		background-position :	12% 53%	! important;
 		background-size :	400% auto	! important ;
 		-moz-background-size :	400% auto	! important ;
@@ -2355,7 +2355,7 @@ div.multi-page + h1 { margin-top: 20px; }
 
 		#header_content > a	{
 			display :	inline-block ! important ;
-			background :	url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif")	! important;
+			background :	url("http://raw.githubusercontent.com/ysei/CSS_-_ruby-lang.org/master/www.ruby-lang.org_-_Logo_-_Siro.gif")	! important;
 			background-size :	cover	! important ;
 			-moz-background-size :	cover	! important ;
 			width :	100%	! important;
@@ -2655,7 +2655,7 @@ div.multi-page + h1 { margin-top: 20px; }
 		}
 	/*
 		#header_content > a:before	{
-			content :	url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif")	! important;
+			content :	url("http://raw.githubusercontent.com/ysei/CSS_-_ruby-lang.org/master/www.ruby-lang.org_-_Logo_-_Siro.gif")	! important;
 			position :	relative	! important ;
 			top :	0	! important ;
 			left :	0	! important ;
@@ -2756,7 +2756,7 @@ div.multi-page + h1 { margin-top: 20px; }
 			display :	inline-block	! important ;
 			position :	relative	! important ;
 			z-index :	0	! important ;
-			content :	url("http://f.cloud.github.com/assets/5885954/2003699/da14a6e6-866d-11e3-9a9e-3d1334a69bef.gif")	! important;
+			content :	url("http://raw.githubusercontent.com/ysei/CSS_-_ruby-lang.org/master/www.ruby-lang.org_-_Logo_-_Siro.gif")	! important;
 			bottom :	256px	! important ;
 			margin-left :	100%	! important ;
 			padding-left :	100%	! important ;
